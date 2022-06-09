@@ -5,7 +5,7 @@ import warehouse from '../../assets/images/Capture-3.PNG';
 
 const Projects = () => {
   return (
-    <section className="pb-24">
+    <section id='project' className="pb-24">
       <h2 className="text-xl md:text-2xl lg:text-3xl uppercase text-center bg-gradient-to-r from-violet-500 to-fuchsia-500  text-transparent bg-clip-text font-semibold pb-12">
         My Projects
       </h2>

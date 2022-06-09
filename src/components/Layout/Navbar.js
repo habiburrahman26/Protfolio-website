@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -28,19 +27,19 @@ const Navbar = () => {
         {show && (
           <ul className="flex flex-col items-center lg:hidden  gap-8 absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-full bg-purple-50 h-screen mt-20 pt-32">
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">Home</Link>
+              <a href="#">Home</a>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">About Me</Link>
+              <a href="#aboutme">About Me</a>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">Skills</Link>
+              <a href="#skills">Skills</a>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">Project</Link>
+              <a href="#project">Project</a>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">Contact Me</Link>
+              <a href="#contactme">Contact Me</a>
             </li>
             <li className="nav-item">
               <a
@@ -57,19 +56,19 @@ const Navbar = () => {
         )}
         <ul className="hidden lg:flex md:items-center gap-8">
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">Home</Link>
+            <a href="#">Home</a>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">About Me</Link>
+            <a href="#aboutme">About Me</a>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">Skills</Link>
+            <a href="#skills">Skills</a>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">Project</Link>
+            <a href="#project">Project</a>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">Contact Me</Link>
+            <a href="#contactme">Contact Me</a>
           </li>
           <li className="nav-item">
             <a

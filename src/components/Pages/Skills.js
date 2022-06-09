@@ -3,7 +3,7 @@ import skill from '../../assets/images/skill.svg';
 
 const Skills = () => {
   return (
-    <section className="py-24 px-4">
+    <section id='skills' className="py-24 px-4">
       <h2 className="text-xl md:text-2xl lg:text-3xl uppercase text-center bg-gradient-to-r from-violet-500 to-fuchsia-500  text-transparent bg-clip-text font-semibold pb-12">
         Skills
       </h2>

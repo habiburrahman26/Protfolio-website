@@ -3,7 +3,7 @@ import habib from '../../assets/images/habib.jpg';
 
 const AboutMe = () => {
   return (
-    <section className="pb-24 bg-lightBlue ">
+    <section id='aboutme' className="pb-24 bg-lightBlue ">
       <div className="md:w-[800px] lg:w-[1000px] mx-auto pt-10 px-3">
         <h2 className="text-xl md:text-2xl lg:text-3xl uppercase text-center bg-gradient-to-r from-violet-500 to-fuchsia-500  text-transparent bg-clip-text font-semibold pb-12">
           About Me
