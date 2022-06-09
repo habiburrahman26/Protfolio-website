@@ -10,7 +10,7 @@ const Banner = () => {
           Habibur Rahman
         </span>
       </h1>
-      <p className="text-xl lg:text-2xl mb-7">Web designer | Web developer</p>
+      <p className="text-xl lg:text-2xl mb-8">Web designer | Web developer</p>
       <div className="flex gap-4">
         <a
           href="https://www.facebook.com/adnan.anik.587/"
@@ -123,7 +123,7 @@ const Banner = () => {
           </svg>
         </a>
       </div>
-      <button className='mt-8 px-8 py-3 uppercase font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full text-white hover:scale-110 transition-all'>Hire Me</button>
+      <button className='mt-8 px-8 py-3 uppercase font-semibold bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full text-white hover:scale-105 transition-all'>Hire Me</button>
     </section>
   );
 };
