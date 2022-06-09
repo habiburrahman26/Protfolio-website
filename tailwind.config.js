@@ -6,6 +6,9 @@ module.exports = {
         aladin: ['Aladin', 'cursive'],
         Poppins: ['Poppins', 'sans-serif'],
       },
+      colors: {
+        dark: '#0D1117',
+      },
     },
   },
 

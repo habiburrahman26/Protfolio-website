@@ -3,17 +3,16 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
-  console.log(show);
 
   return (
     <header className="flex  justify-between h-20 shadow items-center px-4 md:px-10 lg:px-20">
       <div>
-        <h2 className="font-aladin text-xl">Habib-Ram</h2>
+        <h2 className="font-aladin text-2xl">Habib-Ram</h2>
       </div>
       <nav className="flex items-center gap-8">
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          className="h-7 w-7 lg:hidden"
+          className="h-7 w-7 lg:hidden hover:cursor-pointer"
           fill="none"
           viewBox="0 0 24 24"
           stroke="currentColor"
@@ -32,19 +31,19 @@ const Navbar = () => {
               <Link to="#">Home</Link>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">About</Link>
+              <Link to="#">About Me</Link>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">Skill</Link>
+              <Link to="#">Skills</Link>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
               <Link to="#">Project</Link>
             </li>
             <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-              <Link to="#">Contact</Link>
+              <Link to="#">Contact Me</Link>
             </li>
             <li className="nav-item">
-              <button className="px-6 py-3 border-2 border-purple-500 hover:bg-purple-500 hover:text-white rounded-full transition-all duration-300">
+              <button className="px-6 py-3 border-2  border-purple-500 hover:bg-purple-500 hover:text-white rounded-full transition-all duration-300">
                 Download Resume
               </button>
             </li>
