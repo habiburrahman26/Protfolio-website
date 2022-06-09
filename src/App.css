@@ -1,6 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Poppins:wght@400;500;600;700&display=swap');
 
-.icon {
-  fill: red;
-  stroke: red;
+.progressbar {
+  background-color: #f1edf6;
+  border-radius: 13px;
+}
+
+.progressbar > div {
+  background-color: #744ca2;
+  height: 10px;
+  border-radius: 10px;
+}
+
+.html > div {
+  width: 95%;
+}
+
+.css > div {
+  width: 90%;
+}
+
+.sass > div {
+  width: 70%;
+}
+
+.javascript > div {
+  width: 85%;
+}
+
+.react > div {
+  width: 85%;
+}
+.tailwind > div {
+  width: 85%;
+}
+.bootstrap > div {
+  width: 90%;
 }

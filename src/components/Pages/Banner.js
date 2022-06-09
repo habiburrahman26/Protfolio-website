@@ -3,9 +3,9 @@ import '../../App.css';
 
 const Banner = () => {
   return (
-    <section className="h-[90vh] flex flex-col justify-center items-center">
+    <section className="h-[90vh] flex flex-col justify-center items-center text-gray-600">
       <h1 className="text-3xl md:text-4xl lg:text-6xl font-bold mb-5">
-        I'm
+        <span>I'm</span>
         <span className="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-transparent bg-clip-text ml-3">
           Habibur Rahman
         </span>

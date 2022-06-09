@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link to="#">About</Link>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">Skill</Link>
+            <Link to="#">Skills</Link>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
             <Link to="#">Project</Link>
