@@ -43,9 +43,15 @@ const Navbar = () => {
               <Link to="#">Contact Me</Link>
             </li>
             <li className="nav-item">
-              <button className="px-6 py-3 border-2  border-purple-500 hover:bg-purple-500 hover:text-white rounded-full transition-all duration-300">
-                Download Resume
-              </button>
+              <a
+                href="https://drive.google.com/file/d/1pW5zY7ryBObPeMROxc1PCMXpOl38Lnnq/view"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="px-6 py-3 border-2  border-purple-500 hover:bg-purple-500 hover:text-white rounded-full transition-all duration-300">
+                  Download Resume
+                </button>
+              </a>
             </li>
           </ul>
         )}
@@ -54,7 +60,7 @@ const Navbar = () => {
             <Link to="#">Home</Link>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">About</Link>
+            <Link to="#">About Me</Link>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
             <Link to="#">Skills</Link>
@@ -63,12 +69,18 @@ const Navbar = () => {
             <Link to="#">Project</Link>
           </li>
           <li className="border-b-2 border-transparent hover:border-b-2 hover:border-purple-500">
-            <Link to="#">Contact</Link>
+            <Link to="#">Contact Me</Link>
           </li>
           <li className="nav-item">
-            <button className="px-6 py-3 border-2 border-purple-500 hover:bg-purple-500 hover:text-white rounded-full transition-all duration-300">
-              Download Resume
-            </button>
+            <a
+              href="https://drive.google.com/file/d/1pW5zY7ryBObPeMROxc1PCMXpOl38Lnnq/view"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="px-6 py-3 border-2  border-purple-500 hover:bg-purple-500 hover:text-white rounded-full transition-all duration-300">
+                Download Resume
+              </button>
+            </a>
           </li>
         </ul>
       </nav>

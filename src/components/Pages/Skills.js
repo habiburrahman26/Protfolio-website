@@ -8,10 +8,7 @@ const Skills = () => {
         Skills
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-24 md:w-[800px] lg:w-[1000px] mx-auto px-4 ">
-        <div className="justify-self-center">
-          <img src={skill} alt="skill" className="w-[400px]" />
-        </div>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 order-2 md:order-1">
           {/* HTML */}
           <div>
             <div className="flex justify-between font-semibold mb-1">
@@ -72,6 +69,9 @@ const Skills = () => {
               <div></div>
             </div>
           </div>
+        </div>
+        <div className="justify-self-center order-1 md:order-2">
+          <img src={skill} alt="skill" className=" w-[320px] lg:w-[500px]" />
         </div>
       </div>
     </section>
